@@ -1,27 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
 	<meta property="al:android:package" content="ua.gov.diia.app" />
-	<meta property="al:android:url" content="applinks://diia.app/acquirers/offer-request/dynamic/bb67356b-a851-40ac-ab18-c4458617b062" />
+	<meta property="al:android:url"
+		content="diia://acquirers/offer-request/dynamic/bb67356b-a851-40ac-ab18-c4458617b062" />
 	<meta property="al:android:app_name" content="дія" />
-	<meta property="al:ios:url" content="applinks://diia.app/acquirers/offer-request/dynamic/bb67356b-a851-40ac-ab18-c4458617b062" />
+
+	<meta property="al:ios:url" content="diia://acquirers/offer-request/dynamic/bb67356b-a851-40ac-ab18-c4458617b062" />
 	<meta property="al:ios:app_store_id" content="1489717872" />
 	<meta property="al:ios:app_name" content="дія" />
-	<title>Redirect to Diia App</title>
-	<!-- <style>
-		a {
-			display: none;
-		}
-	</style> -->
-</head>
-<body>
-	<!-- <a id="redirect" href="https://diia.app/acquirers/offer-request/dynamic/bb67356b-a851-40ac-ab18-c4458617b062" target="_blank">Redirect</a>
-	Открываю...
 
+	<meta property="al:ipad:url"
+		content="diia://acquirers/offer-request/dynamic/bb67356b-a851-40ac-ab18-c4458617b062" />
+	<meta property="al:ipad:app_store_id" content="1489717872" />
+	<meta property="al:ipad:app_name" content="дія" />
+	<meta property="al:web:should_fallback" content="false" />
+
+	<!-- <meta http-equiv="refresh" content="0;url=https://diia.app/acquirers/offer-request/dynamic/bb67356b-a851-40ac-ab18-c4458617b062" /> -->
+
+	<meta property="og:type" content="object" />
+	<meta property="og:url"
+		content="https://diia.app/acquirers/offer-request/dynamic/bb67356b-a851-40ac-ab18-c4458617b062" />
+	<meta property="og:title" content="Open to Diia App" />
+	<meta property="og:image" content="./diia.jpg" />
+	<meta property="og:description" content="url or text description" />
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diia App</title>
+	<style>
+		a {
+			display: inline-block;
+			margin-left: 1rem;
+			margin-top: 1rem;
+		}
+	</style>
+</head>
+
+<body>
+	<a id="redirect" href="https://diia.app/acquirers/offer-request/dynamic/bb67356b-a851-40ac-ab18-c4458617b062"
+		target="_blank">Open to Diia App</a>
+	<!-- Перенаправлення Diia App... -->
 	<script>
-		document.addEventListener( "DOMContentLoaded", function(event) {
-			document.getElementById("redirect").onclick();
-		});
-	</script> -->
+		// window.addEventListener('error', function (error) {
+		// 	document.write(error.message + (error.stack ? `:::${JSON.stringify(error.stack)}` : ""));
+		// });
+    	// document.addEventListener("DOMContentLoaded", function (event) {
+        // document.getElementById("redirect").click();
+		// const link = document.getElementById("redirect").getAttribute("href");
+        // window.location = link;
+		// setTimeout(function() {
+    	// 	window.location = "diia://acquirers/offer-request/dynamic/bb67356b-a851-40ac-ab18-c4458617b062";
+		// }, 100);
+    	// });
+	</script>
 </body>
+
 </html>
